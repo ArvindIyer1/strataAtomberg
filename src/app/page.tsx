@@ -32,7 +32,9 @@ export default function LandingPage() {
           <Link href="#pricing" className="hover:text-primary transition-colors">Pricing</Link>
         </div>
         <div className="flex items-center gap-4">
-          <Button variant="ghost" className="hidden sm:flex">Login</Button>
+          <Link href="/login">
+            <Button variant="ghost" className="hidden sm:flex">Login</Button>
+          </Link>
           <Link href="/login">
             <Button className="rounded-full px-6 bg-primary hover:bg-primary/90 shadow-xl shadow-primary/20">
               Enter Demo
